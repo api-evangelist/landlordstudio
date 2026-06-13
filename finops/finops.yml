@@ -1,0 +1,32 @@
+name: Landlord Studio FinOps
+description: Financial operations and cost management information for Landlord Studio subscriptions.
+url: https://www.landlordstudio.com/pricing
+billing:
+  models:
+    - type: subscription
+      description: Monthly or annual subscription billing based on plan tier and unit count.
+      currencies:
+        - USD
+      periods:
+        - monthly
+        - annual
+  annual_discount_percent: 20
+  cancel_anytime: true
+  long_term_commitments: false
+cost_optimization:
+  - tip: Choose annual billing to save 20% over monthly pricing on PRO and PRO PLUS plans.
+  - tip: Use the free GO plan for portfolios of 3 units or fewer to eliminate subscription costs.
+  - tip: Start with the 14-day free PRO trial (no credit card required) before committing to a paid plan.
+  - tip: PRO plan charges $1 per additional unit beyond 3; calculate total unit cost before upgrading to PRO PLUS.
+cost_drivers:
+  - name: Plan tier
+    description: Base subscription cost varies from $0 (GO) to $28/month (PRO PLUS).
+  - name: Unit count
+    description: PRO plan charges $1 per extra unit beyond the 3 included in the base price.
+  - name: Billing cycle
+    description: Monthly billing costs 20% more than annual billing for equivalent plans.
+integrations:
+  - name: Xero
+    description: Xero accounting software integration included in PRO and PRO PLUS plans at no additional cost from Landlord Studio (Xero subscription sold separately).
+  - name: Plaid
+    description: Bank feed connectivity powered by Plaid; included within PRO and PRO PLUS plan limits.

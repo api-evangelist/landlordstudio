@@ -1,0 +1,70 @@
+name: Landlord Studio Plans
+description: Subscription plans for Landlord Studio property management software.
+url: https://www.landlordstudio.com/pricing
+plans:
+  - name: GO
+    description: Free plan for new landlords managing up to 3 rental units.
+    price: 0.00
+    currency: USD
+    period: month
+    features:
+      - List and syndicate rental listings
+      - Tenant screening reports
+      - Online rent collection
+      - 10 document storage slots
+      - Manual income and expense tracking
+      - Standard chat and email support
+    limits:
+      units: 3
+      users: 1
+      bank_feed_accounts: 0
+      document_storage: 10
+  - name: PRO
+    description: Paid plan for growing landlords managing multiple properties with automation and advanced reporting.
+    price: 12.00
+    currency: USD
+    period: month
+    annual_price: 144.00
+    annual_savings_percent: 20
+    features:
+      - Everything in GO
+      - Automated rent reminders
+      - 250 document storage slots
+      - Priority support
+      - Bank feeds and smart expense categorization
+      - Xero integration
+      - Schedule E tax-ready reports
+      - Advanced reporting (20+ report types)
+      - Automated rules
+      - Recurring expenses
+    limits:
+      units: 3_plus_1_per_extra_unit
+      users: 5
+      bank_feed_accounts: 5
+      automated_rules: 25
+      recurring_expenses: 25
+      document_storage: 250
+  - name: PRO PLUS
+    description: Premium plan for portfolio growth and scaling with dedicated account management.
+    price: 28.00
+    currency: USD
+    period: month
+    annual_price: 300.00
+    features:
+      - Everything in PRO
+      - Priority listing reviews
+      - Unlimited document storage
+      - Dedicated account manager
+      - Pre-screening questions per listing
+      - Unlimited recurring expenses
+      - Unlimited recurring reminders
+    limits:
+      users: 10
+      bank_feed_accounts: 20
+      automated_rules: 250
+      document_storage: unlimited
+      pre_screening_questions: 10
+trial:
+  duration_days: 14
+  plan: PRO
+  credit_card_required: false

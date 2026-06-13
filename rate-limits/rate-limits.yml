@@ -1,0 +1,9 @@
+name: Landlord Studio Rate Limits
+description: Rate limiting information for Landlord Studio platform integrations. Landlord Studio does not currently publish a public REST API with documented rate limits. The platform offers a Xero integration and the Nexus MTD product which connect via secure internal APIs. Rate limit details are not publicly disclosed.
+url: https://www.landlordstudio.com
+notes:
+  - Landlord Studio integrates with Xero using standard OAuth 2.0 flows governed by Xero API rate limits.
+  - Plaid bank feed connections are subject to Plaid's own rate limiting policies.
+  - Nexus MTD product connects to agent accounting systems (Reapit, PayProp, SME Professional, LettsPay, Alto) via provider-specific API rate limits.
+  - No public rate limit documentation is available for a Landlord Studio first-party REST API as of 2026-06-13.
+limits: []
