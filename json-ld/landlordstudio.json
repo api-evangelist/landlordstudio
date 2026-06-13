@@ -1,0 +1,55 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "Landlord Studio",
+  "url": "https://www.landlordstudio.com",
+  "description": "Landlord Studio is a property management platform founded in 2014 that helps landlords and property managers track rental income and expenses, collect rent online, screen tenants, manage documents, and generate financial reports including Schedule E tax-ready summaries. The platform integrates with Xero for accounting synchronization and Plaid for bank feed connectivity.",
+  "foundingDate": "2014",
+  "sameAs": [
+    "https://portal.landlordstudio.com",
+    "https://help.landlordstudio.com"
+  ],
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "email": "help@landlordstudio.com",
+    "url": "https://help.landlordstudio.com",
+    "contactType": "customer support"
+  },
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "Landlord Studio Services",
+    "itemListElement": [
+      {
+        "@type": "Offer",
+        "name": "Property Management Platform",
+        "description": "Manage rental properties, track income and expenses, generate financial reports, collect rent online, and manage tenant communications."
+      },
+      {
+        "@type": "Offer",
+        "name": "Nexus MTD",
+        "description": "Making Tax Digital (MTD) compliance layer for UK letting agents connecting to Reapit, PayProp, SME Professional, LettsPay, and Alto.",
+        "url": "https://www.landlordstudio.com/uk/nexus"
+      }
+    ]
+  },
+  "makesOffer": [
+    {
+      "@type": "Offer",
+      "name": "Xero Integration",
+      "url": "https://apps.xero.com/us/app/landlord-studio",
+      "description": "Accounting synchronization with Xero."
+    }
+  ],
+  "keywords": [
+    "Property Management",
+    "Real Estate",
+    "Rental Income",
+    "Expense Tracking",
+    "Tenant Screening",
+    "Rent Collection",
+    "Financial Reporting",
+    "Accounting",
+    "Making Tax Digital",
+    "MTD"
+  ]
+}
