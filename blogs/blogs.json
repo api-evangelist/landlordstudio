@@ -255,5 +255,17 @@
       "url": "https://www.landlordstudio.com/blog/what-you-need-to-know-about-investing-in-commercial-real-estate",
       "date_published": "2025-11-06"
     }
-  ]
+  ],
+  "repo": "landlordstudio",
+  "feeds": [
+    {
+      "source": "https://www.landlordstudio.com/pricing",
+      "feed_url": "https://www.landlordstudio.com/pricing",
+      "title": "",
+      "saved": 0,
+      "method": "none"
+    }
+  ],
+  "post_count": 0,
+  "fetched": "2026-06-14T20:42:17Z"
 }
