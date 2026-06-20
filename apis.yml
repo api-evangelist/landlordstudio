@@ -1,7 +1,7 @@
 aid: landlordstudio
 name: Landlord Studio
 description: Landlord Studio is a property management platform founded in 2014 that helps landlords and property managers track rental income and expenses, collect rent online, screen tenants, manage documents, and generate financial reports including Schedule E tax-ready summaries. The platform integrates with Xero for accounting synchronization and Plaid for bank feed connectivity. Nexus by Landlord Studio is a Making Tax Digital (MTD) compliance layer for UK letting agents connecting to Reapit, PayProp, SME Professional, LettsPay, and Alto.
-image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 url: https://raw.githubusercontent.com/api-evangelist/landlordstudio/refs/heads/main/apis.yml
 created: '2026-06-13'
 modified: '2026-06-13'
@@ -21,7 +21,7 @@ apis:
   - aid: landlordstudio:landlordstudio-api
     name: Landlord Studio API
     description: Landlord Studio provides a property management platform with capabilities for managing rental properties, tracking income and expenses, generating financial reports, collecting rent online, and managing tenant communications. Integration is available via Xero accounting synchronization and Plaid bank feeds. The Nexus product provides MTD compliance APIs for UK letting agents.
-    image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://www.landlordstudio.com
     baseURL: https://portal.landlordstudio.com
     tags:
