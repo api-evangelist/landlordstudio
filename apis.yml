@@ -49,6 +49,8 @@ apis:
         email: help@landlordstudio.com
         url: https://help.landlordstudio.com
 common:
+  - type: DomainSecurity
+    url: security/landlordstudio-domain-security.yml
   - type: Plans
     url: https://raw.githubusercontent.com/api-evangelist/landlordstudio/refs/heads/main/plans/plans.yml
   - type: RateLimits
