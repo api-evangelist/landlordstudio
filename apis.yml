@@ -20,6 +20,17 @@ modified: '2026-06-13'
 specificationVersion: '0.23'
 tags:
   - Property Management
+  - Real-Estate
+  - Rental Income
+  - Expense Tracking
+  - Tenant Screening
+  - Rent Collection
+  - Financial Reporting
+  - Accounting
+  - Making Tax Digital
+  - MTD
+tags_raw:
+  - Property Management
   - Real Estate
   - Rental Income
   - Expense Tracking
@@ -37,6 +48,11 @@ apis:
     humanURL: https://www.landlordstudio.com
     baseURL: https://portal.landlordstudio.com
     tags:
+      - Property Management
+      - Real-Estate
+      - Rental Accounting
+      - Tenant Management
+    tags_raw:
       - Property Management
       - Real Estate
       - Rental Accounting
