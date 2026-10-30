@@ -64,42 +64,103 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Landlord Studio is a property management platform founded in 2014 that helps landlords and property managers run their rental businesses more efficiently. The platform provides tools for tracking rental income and expenses, collecting rent online, screening tenants, managing documents and leases, and generating financial reports including Schedule E tax-ready summaries.
+Landlord Studio is a property management platform founded in 2014 that helps landlords and property managers track rental income and expenses, collect rent online, screen tenants, manage documents, and generate financial reports including Schedule E tax-ready summaries. The platform integrates with Xero for accounting synchronization and Plaid for bank feed connectivity. Nexus by Landlord Studio is a Making Tax Digital (MTD) compliance layer for UK letting agents connecting to Reapit, PayProp, SME Professional, LettsPay, and Alto.
 
-## Key Features
+**Areas:** Property Management · Real Estate · Rental Income · Expense Tracking · Tenant Screening · Rent Collection · Financial Reporting · Accounting · Making Tax Digital · MTD
 
-- Online rent collection
-- Tenant screening reports
-- Income and expense tracking with smart categorization
-- Bank feed integration via Plaid
-- Xero accounting software integration
-- Schedule E and 20+ advanced financial reports
-- Document storage and electronic signatures
-- Property maintenance management
-- Automated rent reminders and recurring expenses
-- Nexus MTD compliance layer for UK letting agents (HMRC-recognized)
+## Landlord Studio on APIs.io
 
-## Plans
+Everything profiled for Landlord Studio is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/landlordstudio/](https://apis.io/providers/landlordstudio/)** — or go straight to one of the APIs or properties below.
 
-| Plan | Price | Units |
-|------|-------|-------|
-| GO | Free | Up to 3 |
-| PRO | $12/month | 3 + $1/extra unit |
-| PRO PLUS | $28/month | Unlimited |
+### APIs (1)
 
-Annual billing saves 20%. A 14-day free trial of PRO is available with no credit card required.
+- [Landlord Studio API](https://apis.io/apis/landlordstudio/landlordstudio-api/) — Landlord Studio provides a property management platform with capabilities for managing rental properties, tracking income and expenses, generating financial…
 
-## Integrations
+### Published properties
 
-- **Xero** — Bidirectional accounting sync for rental transactions
-- **Plaid** — US bank feed connectivity for automatic transaction import
-- **Nexus** — MTD submissions connecting to Reapit, PayProp, SME Professional, LettsPay, and Alto for UK letting agents
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-## Links
+#### Security (1)
 
-- Website: https://www.landlordstudio.com
-- Pricing: https://www.landlordstudio.com/pricing
-- Help Center: https://help.landlordstudio.com
-- Blog: https://www.landlordstudio.com/blog
-- Nexus MTD: https://www.landlordstudio.com/uk/nexus
-- Support: help@landlordstudio.com
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Landlordstudio Domain Security](https://apis.io/security/landlordstudio/landlordstudio-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Plans](https://apis.io/plans/landlordstudio/plans/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Rate Limits](https://apis.io/rate-limits/landlordstudio/rate-limits/)
+
+#### FinOps (1)
+
+What the API costs to run, by operation.
+
+- [Finops](https://apis.io/finops/landlordstudio/finops/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://landlordstudio.com)
+- [Pricing](https://www.landlordstudio.com/pricing)
+- [Blog](https://www.landlordstudio.com/blog)
+
+## API Evangelist rating
+
+**Kin Score 12.3** — emerging · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 66.1 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 16.7 |
+| Access clarity | 18.4 |
+
+**Agent readiness 2.5** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | documented (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 5.9** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/landlordstudio/](https://apis.io/providers/landlordstudio/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Landlord Studio: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/landlordstudio/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
